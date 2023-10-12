@@ -1,0 +1,26 @@
+#include "amber99sb-ildn.ff//forcefield.itp"
+
+[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+ca           6    12.010736    0.000000    A      3.399670E-01    3.598240E-01
+nb           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+ha           1     1.007941    0.000000    A      2.599642E-01    6.276000E-02
+h4           1     1.007941    0.000000    A      2.510553E-01    6.276000E-02
+p5          15    30.973762    0.000000    A      3.741775E-01    8.368000E-01
+o            8    15.999405    0.000000    A      2.959922E-01    8.786400E-01
+oh           8    15.999405    0.000000    A      3.066473E-01    8.803136E-01
+ho           1     1.007941    0.000000    A      0.000000E+00    0.000000E+00
+
+#include "Py.itp"
+#include "PA.itp"
+#include "amber99sb-ildn.ff/spce.itp"
+
+[ system ]
+Py_PA_H2O_2
+
+[ molecules ]
+; Molecule      nmols
+Py	 1
+PA     1
+SOL    2
+

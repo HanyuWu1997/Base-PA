@@ -1,0 +1,1 @@
+tachyon_WIN32.exe TMABA_H2O.dat -aasamples 240 -mediumshade -trans_vmd -res 4960 4730 -format BMP -o TMABA_H2O.BMP

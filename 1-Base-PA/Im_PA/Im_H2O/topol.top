@@ -1,0 +1,21 @@
+#include "amber99sb-ildn.ff//forcefield.itp"
+
+[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+cc           6    12.010736    0.000000    A      3.399670E-01    3.598240E-01
+na           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+hn           1     1.007941    0.000000    A      1.069078E-01    6.568880E-02
+h4           1     1.007941    0.000000    A      2.510553E-01    6.276000E-02
+h5           1     1.007941    0.000000    A      2.421463E-01    6.276000E-02
+n2           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+
+#include "Im.itp"
+#include "amber99sb-ildn.ff/spce.itp"
+
+[ system ]
+Im_H2O_1
+
+[ molecules ]
+; Molecule      nmols
+Im      1
+SOL		1

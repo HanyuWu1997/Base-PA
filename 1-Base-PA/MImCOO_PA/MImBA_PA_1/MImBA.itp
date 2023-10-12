@@ -1,0 +1,224 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3) on 2022-05-18
+[ moleculetype ]
+; name          nrexcl
+MImBA       3
+
+[ atoms ]
+;  Index   type   residue  resname   atom        cgnr     charge       mass
+     1     cc         1      MOL     C1            1    -0.1523020626   12.010736
+     2     cc         1      MOL     C2            2    -0.1771728139   12.010736
+     3     c2         1      MOL     C3            3     0.0179307951   12.010736
+     4     na         1      MOL     N4            4     0.0712195069   14.006703
+     5     h4         1      MOL     H5            5     0.1905672077    1.007941
+     6     h4         1      MOL     H6            6     0.1995750649    1.007941
+     7     h5         1      MOL     H7            7     0.2046339640    1.007941
+     8     c3         1      MOL     C8            8    -0.1466653765   12.010736
+     9     h1         1      MOL     H9            9     0.1060021242    1.007941
+    10     h1         1      MOL     H10          10     0.1060021242    1.007941
+    11     h1         1      MOL     H11          11     0.1060021242    1.007941
+    12     na         1      MOL     N12          12    -0.0169085561   14.006703
+    13     c3         1      MOL     C13          13     0.0126082949   12.010736
+    14     h1         1      MOL     H14          14     0.0555098252    1.007941
+    15     h1         1      MOL     H15          15     0.0555098252    1.007941
+    16     c3         1      MOL     C16          16     0.1062347243   12.010736
+    17     hc         1      MOL     H17          17    -0.0168823625    1.007941
+    18     hc         1      MOL     H18          18    -0.0168823625    1.007941
+    19     c3         1      MOL     C19          19     0.0183560343   12.010736
+    20     hc         1      MOL     H20          20    -0.0274339964    1.007941
+    21     hc         1      MOL     H21          21    -0.0274339964    1.007941
+    22     c2         1      MOL     C22          22     0.6188891364   12.010736
+    23     o          1      MOL     O23          23    -0.6704497342   15.999405
+    24     o          1      MOL     O24          24    -0.6169094904   15.999405
+ 
+[ bonds ]
+; atom_i  atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+    1       2         1        0.135750     4.033682E+05     ; C1-C2, mSeminario method
+    1       4         1        0.138642     2.559335E+05     ; C1-N4, mSeminario method
+    1       5         1        0.107542     3.429258E+05     ; C1-H5, mSeminario method
+    2       6         1        0.107537     3.428676E+05     ; C2-H6, mSeminario method
+    2      12         1        0.138768     2.480976E+05     ; C2-N12, mSeminario method
+    3       4         1        0.133564     3.470693E+05     ; C3-N4, mSeminario method
+    3       7         1        0.109260     3.020755E+05     ; C3-H7, mSeminario method
+    3      12         1        0.133763     3.436568E+05     ; C3-N12, mSeminario method
+    4       8         1        0.146290     2.052280E+05     ; N4-C8, mSeminario method
+    8       9         1        0.108937     3.015637E+05     ; C8-H9, mSeminario method
+    8      10         1        0.109192     2.987816E+05     ; C8-H10, mSeminario method
+    8      11         1        0.108807     3.058466E+05     ; C8-H11, mSeminario method
+   12      13         1        0.147816     1.669502E+05     ; N12-C13, mSeminario method
+   13      14         1        0.109093     2.956525E+05     ; C13-H14, mSeminario method
+   13      15         1        0.108949     3.015528E+05     ; C13-H15, mSeminario method
+   13      16         1        0.154613     1.546975E+05     ; C13-C16, mSeminario method
+   16      17         1        0.109421     2.851010E+05     ; C16-H17, mSeminario method
+   16      18         1        0.109324     2.881744E+05     ; C16-H18, mSeminario method
+   16      19         1        0.154280     1.598597E+05     ; C16-C19, mSeminario method
+   19      20         1        0.109200     2.915008E+05     ; C19-H20, mSeminario method
+   19      21         1        0.109185     2.902618E+05     ; C19-H21, mSeminario method
+   19      22         1        0.154323     1.386981E+05     ; C19-C22, mSeminario method
+   22      23         1        0.125996     4.620832E+05     ; C22-O23, mSeminario method
+   22      24         1        0.125669     4.736762E+05     ; C22-O24, mSeminario method
+ 
+[ angles ]
+; atom_i  atom_j  atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+    1       2       6         1       130.944      2.637755E+02     ; C1-C2-H6, mSeminario method
+    1       2      12         1       107.119      5.035437E+02     ; C1-C2-N12, mSeminario method
+    1       4       3         1       108.916      6.997470E+02     ; C1-N4-C3, mSeminario method
+    1       4       8         1       126.760      6.312969E+02     ; C1-N4-C8, mSeminario method
+    2       1       4         1       106.876      5.047571E+02     ; C2-C1-N4, mSeminario method
+    2       1       5         1       131.048      2.650591E+02     ; C2-C1-H5, mSeminario method
+    2      12       3         1       108.642      6.933949E+02     ; C2-N12-C3, mSeminario method
+    2      12      13         1       124.706      6.458364E+02     ; C2-N12-C13, mSeminario method
+    3       4       8         1       121.901      6.771662E+02     ; C3-N4-C8, mSeminario method
+    3      12      13         1       124.816      6.581229E+02     ; C3-N12-C13, mSeminario method
+    4       1       5         1       122.069      2.895022E+02     ; N4-C1-H5, mSeminario method
+    4       3       7         1       127.333      2.961180E+02     ; N4-C3-H7, mSeminario method
+    4       3      12         1       108.420      6.633212E+02     ; N4-C3-N12, mSeminario method
+    4       8       9         1       109.905      6.323360E+02     ; N4-C8-H9, mSeminario method
+    4       8      10         1       107.281      4.240152E+02     ; N4-C8-H10, mSeminario method
+    4       8      11         1       108.952      4.704152E+02     ; N4-C8-H11, mSeminario method
+    6       2      12         1       121.935      2.879608E+02     ; H6-C2-N12, mSeminario method
+    7       3      12         1       123.888      3.121866E+02     ; H7-C3-N12, mSeminario method
+    9       8      10         1       110.159      2.413336E+02     ; H9-C8-H10, mSeminario method
+    9       8      11         1       109.481      2.970827E+02     ; H9-C8-H11, mSeminario method
+   10       8      11         1       111.027      3.735959E+02     ; H10-C8-H11, mSeminario method
+   12      13      14         1       106.521      5.816360E+02     ; N12-C13-H14, mSeminario method
+   12      13      15         1       107.013      6.104993E+02     ; N12-C13-H15, mSeminario method
+   12      13      16         1       111.867      8.832401E+02     ; N12-C13-C16, mSeminario method
+   13      16      17         1       107.463      5.125712E+02     ; C13-C16-H17, mSeminario method
+   13      16      18         1       108.154      4.999640E+02     ; C13-C16-H18, mSeminario method
+   13      16      19         1       114.571      8.763247E+02     ; C13-C16-C19, mSeminario method
+   14      13      15         1       109.180      2.814814E+02     ; H14-C13-H15, mSeminario method
+   14      13      16         1       111.322      3.474499E+02     ; H14-C13-C16, mSeminario method
+   15      13      16         1       110.745      4.713152E+02     ; H15-C13-C16, mSeminario method
+   16      19      20         1       108.769      3.824132E+02     ; C16-C19-H20, mSeminario method
+   16      19      21         1       110.014      4.200629E+02     ; C16-C19-H21, mSeminario method
+   16      19      22         1       108.523      1.100435E+03     ; C16-C19-C22, mSeminario method
+   17      16      18         1       107.154      2.476466E+02     ; H17-C16-H18, mSeminario method
+   17      16      19         1       109.958      3.373092E+02     ; H17-C16-C19, mSeminario method
+   18      16      19         1       109.268      3.634839E+02     ; H18-C16-C19, mSeminario method
+   19      22      23         1       115.563      4.972875E+02     ; C19-C22-O23, mSeminario method
+   19      22      24         1       116.528      4.774942E+02     ; C19-C22-O24, mSeminario method
+   20      19      21         1       109.227      2.784538E+02     ; H20-C19-H21, mSeminario method
+   20      19      22         1       111.070      4.993774E+02     ; H20-C19-C22, mSeminario method
+   21      19      22         1       109.228      4.519289E+02     ; H21-C19-C22, mSeminario method
+   23      22      24         1       126.934      5.047176E+02     ; O23-C22-O24, mSeminario method
+ 
+[ dihedrals ] ; propers
+; atom_i  atom_j  atom_k  atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+; atom_i  atom_j  atom_k  atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+    1       2      12       3         9       180.000       7.11280    2     ; C1-C2-N12-C3, prebuilt X-cc-na-X
+    1       2      12      13         9       180.000       7.11280    2     ; C1-C2-N12-C13, prebuilt X-cc-na-X
+    1       4       3       7         9       180.000       2.61500    2     ; C1-N4-C3-H7, prebuilt X-c2-na-X
+    1       4       3      12         9       180.000       2.61500    2     ; C1-N4-C3-N12, prebuilt X-c2-na-X
+    1       4       8       9         9         0.000       0.00000    2     ; C1-N4-C8-H9, prebuilt X-c3-na-X
+    1       4       8      10         9         0.000       0.00000    2     ; C1-N4-C8-H10, prebuilt X-c3-na-X
+    1       4       8      11         9         0.000       0.00000    2     ; C1-N4-C8-H11, prebuilt X-c3-na-X
+    2       1       4       3         9       180.000       7.11280    2     ; C2-C1-N4-C3, prebuilt X-cc-na-X
+    2       1       4       8         9       180.000       7.11280    2     ; C2-C1-N4-C8, prebuilt X-cc-na-X
+    2      12       3       4         9       180.000       2.61500    2     ; C2-N12-C3-N4, prebuilt X-c2-na-X
+    2      12       3       7         9       180.000       2.61500    2     ; C2-N12-C3-H7, prebuilt X-c2-na-X
+    2      12      13      14         9         0.000       0.00000    2     ; C2-N12-C13-H14, prebuilt X-c3-na-X
+    2      12      13      15         9         0.000       0.00000    2     ; C2-N12-C13-H15, prebuilt X-c3-na-X
+    2      12      13      16         9         0.000       0.00000    2     ; C2-N12-C13-C16, prebuilt X-c3-na-X
+    3       4       1       5         9       180.000       7.11280    2     ; C3-N4-C1-H5, prebuilt X-cc-na-X
+    3       4       8       9         9         0.000       0.00000    2     ; C3-N4-C8-H9, prebuilt X-c3-na-X
+    3       4       8      10         9         0.000       0.00000    2     ; C3-N4-C8-H10, prebuilt X-c3-na-X
+    3       4       8      11         9         0.000       0.00000    2     ; C3-N4-C8-H11, prebuilt X-c3-na-X
+    3      12       2       6         9       180.000       7.11280    2     ; C3-N12-C2-H6, prebuilt X-cc-na-X
+    3      12      13      14         9         0.000       0.00000    2     ; C3-N12-C13-H14, prebuilt X-c3-na-X
+    3      12      13      15         9         0.000       0.00000    2     ; C3-N12-C13-H15, prebuilt X-c3-na-X
+    3      12      13      16         9         0.000       0.00000    2     ; C3-N12-C13-C16, prebuilt X-c3-na-X
+    4       1       2       6         9       180.000      16.73600    2     ; N4-C1-C2-H6, prebuilt X-cc-cc-X
+    4       1       2      12         9       180.000      16.73600    2     ; N4-C1-C2-N12, prebuilt X-cc-cc-X
+    4       3      12      13         9       180.000       2.61500    2     ; N4-C3-N12-C13, prebuilt X-c2-na-X
+    5       1       2       6         9       180.000      16.73600    2     ; H5-C1-C2-H6, prebuilt X-cc-cc-X
+    5       1       2      12         9       180.000      16.73600    2     ; H5-C1-C2-N12, prebuilt X-cc-cc-X
+    5       1       4       8         9       180.000       7.11280    2     ; H5-C1-N4-C8, prebuilt X-cc-na-X
+    6       2      12      13         9       180.000       7.11280    2     ; H6-C2-N12-C13, prebuilt X-cc-na-X
+    7       3       4       8         9       180.000       2.61500    2     ; H7-C3-N4-C8, prebuilt X-c2-na-X
+    7       3      12      13         9       180.000       2.61500    2     ; H7-C3-N12-C13, prebuilt X-c2-na-X
+    8       4       3      12         9       180.000       2.61500    2     ; C8-N4-C3-N12, prebuilt X-c2-na-X
+   12      13      16      17         9         0.000       0.65084    3     ; N12-C13-C16-H17, prebuilt X-c3-c3-X
+   12      13      16      18         9         0.000       0.65084    3     ; N12-C13-C16-H18, prebuilt X-c3-c3-X
+   12      13      16      19         9         0.000       0.65084    3     ; N12-C13-C16-C19, prebuilt X-c3-c3-X
+   13      16      19      20         9         0.000       0.66944    3     ; C13-C16-C19-H20, prebuilt hc-c3-c3-c3
+   13      16      19      21         9         0.000       0.66944    3     ; C13-C16-C19-H21, prebuilt hc-c3-c3-c3
+   13      16      19      22         9         0.000       0.65084    3     ; C13-C16-C19-C22, prebuilt X-c3-c3-X
+   14      13      16      17         9         0.000       0.65084    3     ; H14-C13-C16-H17, prebuilt X-c3-c3-X
+   14      13      16      18         9         0.000       0.65084    3     ; H14-C13-C16-H18, prebuilt X-c3-c3-X
+   14      13      16      19         9         0.000       0.65084    3     ; H14-C13-C16-C19, prebuilt X-c3-c3-X
+   15      13      16      17         9         0.000       0.65084    3     ; H15-C13-C16-H17, prebuilt X-c3-c3-X
+   15      13      16      18         9         0.000       0.65084    3     ; H15-C13-C16-H18, prebuilt X-c3-c3-X
+   15      13      16      19         9         0.000       0.65084    3     ; H15-C13-C16-C19, prebuilt X-c3-c3-X
+   16      19      22      23         9         0.000       0.00000    2     ; C16-C19-C22-O23, prebuilt X-c2-c3-X
+   16      19      22      24         9         0.000       0.00000    2     ; C16-C19-C22-O24, prebuilt X-c2-c3-X
+   17      16      19      20         9         0.000       0.62760    3     ; H17-C16-C19-H20, prebuilt hc-c3-c3-hc
+   17      16      19      21         9         0.000       0.62760    3     ; H17-C16-C19-H21, prebuilt hc-c3-c3-hc
+   17      16      19      22         9         0.000       0.65084    3     ; H17-C16-C19-C22, prebuilt X-c3-c3-X
+   18      16      19      20         9         0.000       0.62760    3     ; H18-C16-C19-H20, prebuilt hc-c3-c3-hc
+   18      16      19      21         9         0.000       0.62760    3     ; H18-C16-C19-H21, prebuilt hc-c3-c3-hc
+   18      16      19      22         9         0.000       0.65084    3     ; H18-C16-C19-C22, prebuilt X-c3-c3-X
+   20      19      22      23         9         0.000       0.00000    2     ; H20-C19-C22-O23, prebuilt X-c2-c3-X
+   20      19      22      24         9         0.000       0.00000    2     ; H20-C19-C22-O24, prebuilt X-c2-c3-X
+   21      19      22      23         9         0.000       0.00000    2     ; H21-C19-C22-O23, prebuilt X-c2-c3-X
+   21      19      22      24         9         0.000       0.00000    2     ; H21-C19-C22-O24, prebuilt X-c2-c3-X
+
+[ pairs ] ; Yielded based on rotatable dihedrals
+; atom_i  atom_j  functype
+    1      13         1     ; C1-C2-N12-C13
+    1       7         1     ; C1-N4-C3-H7
+    1       9         1     ; C1-N4-C8-H9
+    1      10         1     ; C1-N4-C8-H10
+    1      11         1     ; C1-N4-C8-H11
+    2       8         1     ; C2-C1-N4-C8
+    2       7         1     ; C2-N12-C3-H7
+    2      14         1     ; C2-N12-C13-H14
+    2      15         1     ; C2-N12-C13-H15
+    2      16         1     ; C2-N12-C13-C16
+    3       5         1     ; C3-N4-C1-H5
+    3       9         1     ; C3-N4-C8-H9
+    3      10         1     ; C3-N4-C8-H10
+    3      11         1     ; C3-N4-C8-H11
+    3       6         1     ; C3-N12-C2-H6
+    3      14         1     ; C3-N12-C13-H14
+    3      15         1     ; C3-N12-C13-H15
+    3      16         1     ; C3-N12-C13-C16
+    4       6         1     ; N4-C1-C2-H6
+    4      13         1     ; N4-C3-N12-C13
+    5       6         1     ; H5-C1-C2-H6
+    5      12         1     ; H5-C1-C2-N12
+    5       8         1     ; H5-C1-N4-C8
+    6      13         1     ; H6-C2-N12-C13
+    7       8         1     ; H7-C3-N4-C8
+    7      13         1     ; H7-C3-N12-C13
+    8      12         1     ; C8-N4-C3-N12
+   12      17         1     ; N12-C13-C16-H17
+   12      18         1     ; N12-C13-C16-H18
+   12      19         1     ; N12-C13-C16-C19
+   13      20         1     ; C13-C16-C19-H20
+   13      21         1     ; C13-C16-C19-H21
+   13      22         1     ; C13-C16-C19-C22
+   14      17         1     ; H14-C13-C16-H17
+   14      18         1     ; H14-C13-C16-H18
+   14      19         1     ; H14-C13-C16-C19
+   15      17         1     ; H15-C13-C16-H17
+   15      18         1     ; H15-C13-C16-H18
+   15      19         1     ; H15-C13-C16-C19
+   16      23         1     ; C16-C19-C22-O23
+   16      24         1     ; C16-C19-C22-O24
+   17      20         1     ; H17-C16-C19-H20
+   17      21         1     ; H17-C16-C19-H21
+   17      22         1     ; H17-C16-C19-C22
+   18      20         1     ; H18-C16-C19-H20
+   18      21         1     ; H18-C16-C19-H21
+   18      22         1     ; H18-C16-C19-C22
+   20      23         1     ; H20-C19-C22-O23
+   20      24         1     ; H20-C19-C22-O24
+   21      23         1     ; H21-C19-C22-O23
+   21      24         1     ; H21-C19-C22-O24
+ 
+[ dihedrals ] ; impropers
+; atom_i  atom_j  atom_k  atom_l  functype  phase (Deg.)  kd (kJ/mol)  pn
+    4       7       3      12         4       180.000       4.60240    2     ; N4-H7-C3-N12, guess (same as GAFF X -X -ca-ha)
+    1       3       4       8         4       180.000       4.60240    2     ; C1-C3-N4-C8, guess (same as GAFF X -X -ca-ha)
+    2       3      12      13         4       180.000       4.60240    2     ; C2-C3-N12-C13, guess (same as GAFF X -X -ca-ha)
+   19      23      22      24         4       180.000       4.60240    2     ; C19-O23-C22-O24, guess (same as GAFF X -X -ca-ha)
